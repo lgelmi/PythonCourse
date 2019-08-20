@@ -8,9 +8,18 @@ import logging
 try:
     from ..exceptions import *
 except ValueError:
-    from src.pyzzeria.exceptions import *
+    from pyzzeria import *
 
 class Magazzyno:
+    """
+    Stores ingredients and... others.
+    """
+
+    name = "DaName"
+    """
+    This is just an attribute to show the docstring
+    """
+
     def __init__(self, ingredients: dict, pyzzeria: str = "Pyzzeria"):
         """
         Initialize the ingredient dictionary.
@@ -22,6 +31,12 @@ class Magazzyno:
         self.logger: logging.Logger = logging.getLogger(self.pyzzeria)
 
     def add_ingredient(self, ingredient: str, amount: int):
+        """
+        Add the given ingredient to the magazzyno.
+
+        :param ingredient: ingredient to be added.
+        :param amount: quantity to be added.
+        """
         try:
             self.ingredients[ingredient] += amount
         except KeyError:

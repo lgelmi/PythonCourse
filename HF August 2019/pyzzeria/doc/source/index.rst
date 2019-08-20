@@ -16,8 +16,7 @@ Welcome to Pyzzeria's documentation!
    :maxdepth: 3
    :caption: Modules:
 
-   pyzzeria.rst
-
+   modules.rst
 
 Indices and tables
 ==================

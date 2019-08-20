@@ -95,6 +95,7 @@
 </ul>
 <p class="caption"><span class="caption-text">Modules:</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="debug_example.html">debug_example module</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="pyzzeria.html">pyzzeria package</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="pyzzeria.html#subpackages">Subpackages</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pyzzeria.exceptions.html">pyzzeria.exceptions package</a></li>
@@ -110,14 +111,8 @@
 <li class="toctree-l2"><a class="reference internal" href="pyzzeria.html#module-pyzzeria">Module contents</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pyzzeria.exceptions.html">pyzzeria.exceptions package</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">pyzzeria.magazzyno package</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-pyzzeria.magazzyno.magazzyno">pyzzeria.magazzyno.magazzyno module</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#module-pyzzeria.magazzyno">Module contents</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="pyzzeria.pyzzaiolo.html">pyzzeria.pyzzaiolo package</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release.html">release module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release.html">release module</a></li>
 </ul>
 
             
@@ -163,6 +158,8 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
+          <li><a href="modules.html">&lt;no title&gt;</a> &raquo;</li>
+        
           <li><a href="pyzzeria.html">pyzzeria package</a> &raquo;</li>
         
       <li>pyzzeria.magazzyno package</li>
@@ -197,10 +194,24 @@
 <dt id="pyzzeria.magazzyno.magazzyno.Magazzyno">
 <em class="property">class </em><code class="descclassname">pyzzeria.magazzyno.magazzyno.</code><code class="descname">Magazzyno</code><span class="sig-paren">(</span><em>ingredients: dict</em>, <em>pyzzeria: str = 'Pyzzeria'</em><span class="sig-paren">)</span><a class="headerlink" href="#pyzzeria.magazzyno.magazzyno.Magazzyno" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Stores ingredients and… others.</p>
 <dl class="method">
 <dt id="pyzzeria.magazzyno.magazzyno.Magazzyno.add_ingredient">
 <code class="descname">add_ingredient</code><span class="sig-paren">(</span><em>ingredient: str</em>, <em>amount: int</em><span class="sig-paren">)</span><a class="headerlink" href="#pyzzeria.magazzyno.magazzyno.Magazzyno.add_ingredient" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Add the given ingredient to the magazzyno.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>ingredient</strong> – ingredient to be added.</li>
+<li><strong>amount</strong> – quantity to be added.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
 
 <dl class="method">
 <dt id="pyzzeria.magazzyno.magazzyno.Magazzyno.check_ingredients">
@@ -222,6 +233,12 @@
 <dt id="pyzzeria.magazzyno.magazzyno.Magazzyno.consume_ingredients">
 <code class="descname">consume_ingredients</code><span class="sig-paren">(</span><em>consumed: list</em><span class="sig-paren">)</span><a class="headerlink" href="#pyzzeria.magazzyno.magazzyno.Magazzyno.consume_ingredients" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
+
+<dl class="attribute">
+<dt id="pyzzeria.magazzyno.magazzyno.Magazzyno.name">
+<code class="descname">name</code><em class="property"> = 'DaName'</em><a class="headerlink" href="#pyzzeria.magazzyno.magazzyno.Magazzyno.name" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is just an attribute to show the docstring</p>
+</dd></dl>
 
 </dd></dl>
 

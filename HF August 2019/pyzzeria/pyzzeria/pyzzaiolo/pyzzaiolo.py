@@ -8,7 +8,7 @@ import logging
 try:
     from ..magazzyno import Magazzyno
 except ValueError:
-    from src.pyzzeria.magazzyno import Magazzyno
+    from pyzzeria import Magazzyno
 
 
 class Pyzzaiolo:
